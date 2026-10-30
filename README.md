@@ -98,6 +98,8 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 
 [`samples/long-term-demo.json`](samples/long-term-demo.json) 是一份合成的长期使用数据：一个置顶的「阅读」计数器、约 14 个月的事件，以及「习惯」「阅读」两个标签。
 
+![长期使用示例热力图](docs/screenshots/heatmap-longterm.png)
+
 导入后打开「阅读」详情，可以看到一年以上、有自然深浅变化的热力图。导入步骤：
 
 1. 把 JSON 传到手机（下载目录即可）。
