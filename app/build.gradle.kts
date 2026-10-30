@@ -1,3 +1,5 @@
+import java.util.Properties
+import com.android.build.api.variant.impl.VariantOutputImpl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -8,6 +10,18 @@ plugins {
     alias(libs.plugins.ksp)
 }
 
+val appVersionName = "1.0.0"
+val appVersionCode = 1
+
+// Release signing is local-only: keep keystore.properties and the keystore out of Git.
+val keystorePropertiesFile = rootProject.file("keystore.properties")
+val keystoreProperties = Properties().apply {
+    if (keystorePropertiesFile.exists()) {
+        keystorePropertiesFile.inputStream().use { load(it) }
+    }
+}
+val hasReleaseSigning = keystorePropertiesFile.exists()
+
 android {
     namespace = "com.ltq.count"
     compileSdk = 35
@@ -16,9 +30,20 @@ android {
         applicationId = "com.ltq.count"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = appVersionCode
+        versionName = appVersionName
         vectorDrawables.useSupportLibrary = true
+    }
+
+    signingConfigs {
+        if (hasReleaseSigning) {
+            create("release") {
+                storeFile = rootProject.file(keystoreProperties.getProperty("storeFile"))
+                storePassword = keystoreProperties.getProperty("storePassword")
+                keyAlias = keystoreProperties.getProperty("keyAlias")
+                keyPassword = keystoreProperties.getProperty("keyPassword")
+            }
+        }
     }
 
     buildTypes {
@@ -28,6 +53,9 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
             )
+            if (hasReleaseSigning) {
+                signingConfig = signingConfigs.getByName("release")
+            }
         }
     }
 
@@ -44,6 +72,21 @@ android {
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
+}
+
+androidComponents {
+    // AGP 8.9 has no public outputFileName API. Keep this single internal cast localized so the
+    // release artifact is named Count-<versionName>.apk; revisit when AGP exposes the API.
+    onVariants(selector().all()) { variant ->
+        val suffix = when {
+            variant.buildType == "release" && hasReleaseSigning -> ""
+            variant.buildType == "release" -> "-unsigned"
+            else -> "-${variant.buildType}"
+        }
+        variant.outputs.forEach { output ->
+            (output as VariantOutputImpl).outputFileName.set("Count-$appVersionName$suffix.apk")
         }
     }
 }

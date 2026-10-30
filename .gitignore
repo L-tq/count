@@ -17,12 +17,16 @@ local.properties
 *.hprof
 
 # Signing / secrets
+keystore/
 *.jks
 *.keystore
 keystore.properties
 signing.properties
 .env
 .env.*
+
+# Local distribution copies
+dist/
 
 # IDE / OS
 .idea/

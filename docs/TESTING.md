@@ -60,5 +60,5 @@
 - 快捷方式依赖 Launcher 支持 `requestPinShortcut`；部分国产桌面可能仅支持系统弹窗或不支持。
 - CSV 仅导出不导入。
 - 自动化测试覆盖纯领域逻辑；UI/导入流程、SAF、快捷方式与音量键通过真机手工验收，仓库内没有 instrumentation 测试。
-- 未提供 release 签名与 R8 混淆配置；本仓库只产出 debug APK。
+- 未配置 R8 混淆；release 签名通过本地 `keystore.properties` 提供，密钥不随仓库分发。
 - 文本字段使用系统输入法；中文输入法的候选词提交依赖系统行为，未做自定义 IME。

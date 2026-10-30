@@ -73,16 +73,27 @@ sdk.dir=/path/to/android-sdk
 APK 输出：
 
 ```
-app/build/outputs/apk/debug/app-debug.apk
+app/build/outputs/apk/debug/Count-1.0.0-debug.apk
+app/build/outputs/apk/release/Count-1.0.0.apk
 ```
 
 ### 安装到设备
 
 ```bash
-adb install -r app/build/outputs/apk/debug/app-debug.apk
+adb install -r app/build/outputs/apk/debug/Count-1.0.0-debug.apk
 ```
 
-本仓库只提供 debug 签名，未配置 release 签名与 R8 混淆。
+Debug 包使用 debug key。Release 包通过本地 `keystore.properties` 签名：
+
+```bash
+cp keystore.properties.example keystore.properties
+# 填入 keystore 路径与密码
+./gradlew :app:assembleRelease
+```
+
+`keystore.properties`、keystore 文件均已被 `.gitignore` 忽略。没有配置时 release 仍可构建，但输出为 `Count-1.0.0-unsigned.apk`，不能分发。完整的密钥生成、签名校验和发布清单见 [发布与版本命名](docs/RELEASE.md)。
+
+本仓库未配置 R8 混淆。
 
 ## 使用
 
@@ -125,6 +136,7 @@ Kotlin + Jetpack Compose + Material 3，Room 持久化，DataStore 保存偏好�
 | [架构](docs/ARCHITECTURE.md) | 技术栈、目录结构、数据流、数据模型、不变量、热力图 |
 | [视觉与设计决策](docs/DESIGN.md) | 颜色/字体/动效规范、19 条设计与实现决策 |
 | [测试与验收](docs/TESTING.md) | 48 个单元测试、真机验收、黑屏回归、已知限制 |
+| [发布与版本命名](docs/RELEASE.md) | keystore、签名、APK/AAB 命名、发布检查清单 |
 
 ## 许可证
 
