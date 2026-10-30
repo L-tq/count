@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Count</string>
+    <string name="brand_tagline">Small repeated things, made visible as numbers</string>
+
+    <!-- Common actions -->
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_close">Close</string>
+    <string name="action_done">Done</string>
+    <string name="action_ok">OK</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_add">Add</string>
+    <string name="action_back">Back</string>
+    <string name="action_more">More</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_export">Export</string>
+    <string name="action_import">Import</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_continue">Continue</string>
+
+    <!-- Shared -->
+    <string name="number_signed">%1$+d</string>
+    <string name="count_events">%1$d events</string>
+    <string name="error_generic">Something went wrong. Try again.</string>
+    <string name="value_counter_missing">Counter not found</string>
+    <string name="note_too_long">Notes are limited to %1$d characters</string>
+    <string name="backup_field_fallback">field</string>
+
+    <!-- Home -->
+    <string name="home_title">Count</string>
+    <string name="home_pinned_section">Pinned</string>
+    <string name="home_all_section">All counters</string>
+    <string name="home_empty_title">No counters yet</string>
+    <string name="home_empty_body">Create one and turn a repeated habit into a number. You can also import a previous JSON backup in Settings.</string>
+    <string name="home_new_counter">New counter</string>
+    <string name="home_card_menu_edit">Edit</string>
+    <string name="home_card_menu_pin">Pin</string>
+    <string name="home_card_menu_unpin">Unpin</string>
+    <string name="home_card_menu_tags">Tags</string>
+    <string name="home_card_menu_shortcut">Create shortcut</string>
+    <string name="home_card_menu_delete">Delete</string>
+    <string name="home_delete_title">Delete “%1$s”?</string>
+    <string name="home_delete_body">This counter and all of its events will be removed permanently.</string>
+    <string name="home_shortcut_created">Shortcut requested</string>
+    <string name="home_shortcut_failed">Could not create the shortcut</string>
+    <string name="home_drag_handle">Drag to reorder</string>
+    <string name="home_tag_filter_all">All</string>
+    <string name="home_tag_manage">Manage tags</string>
+    <string name="tag_manage_title">Manage tags</string>
+    <string name="tag_manage_hint">Deleting a tag only removes it from counters. Counters and events are kept.</string>
+    <string name="tag_delete_title">Delete tag “%1$s”?</string>
+    <string name="tag_delete_body">Counters using this tag will lose it; counters and events are kept. The tag links cannot be restored.</string>
+    <string name="tag_delete_content_description">Delete tag %1$s</string>
+    <string name="tag_deleted">Deleted tag “%1$s”</string>
+    <string name="tag_delete_failed">Could not delete tag</string>
+    <string name="home_step_title">Session step</string>
+    <string name="home_step_option">+%1$d</string>
+    <string name="home_step_custom_title">Custom step</string>
+    <string name="home_step_custom_hint">1–1000</string>
+    <string name="home_step_applied">Step set to %1$d</string>
+    <string name="home_card_open">Open %1$s</string>
+    <string name="home_card_add">Increase %1$s</string>
+    <string name="home_card_subtract">Decrease %1$s</string>
+    <string name="home_card_more">More actions for %1$s</string>
+    <string name="home_menu_tags_title">Choose tags</string>
+    <string name="home_counters_empty_filtered">No counters with this tag</string>
+    <string name="home_reorder_hint">Long press the handle to reorder</string>
+    <string name="home_events_preview">%1$d events</string>
+
+    <!-- Snackbar -->
+    <string name="snackbar_saved">Recorded</string>
+    <string name="snackbar_value">Value %1$d</string>
+    <string name="snackbar_undo_success">Undone</string>
+    <string name="snackbar_undo_blocked">Undo would make the value negative</string>
+    <string name="snackbar_reset">Reset to initial value</string>
+
+    <!-- Adjust errors -->
+    <string name="value_blocked_negative">Current value is %1$d; changing by %2$d would go below zero</string>
+    <string name="value_already_baseline">Already at the initial value</string>
+    <string name="value_invalid">Invalid value</string>
+    <string name="value_delta_out_of_range">That change is outside the allowed range</string>
+
+    <!-- Create / edit -->
+    <string name="edit_title_new">New counter</string>
+    <string name="edit_title_edit">Edit counter</string>
+    <string name="edit_name">Name</string>
+    <string name="edit_name_hint">Water, books, push-ups…</string>
+    <string name="edit_initial_value">Initial value</string>
+    <string name="edit_initial_hint">May be negative</string>
+    <string name="edit_initial_helper">Changing the initial value only moves the baseline. No history is touched.</string>
+    <string name="edit_allow_negative">Allow negative values</string>
+    <string name="edit_allow_negative_helper">When off, any action that would take the total below zero is blocked.</string>
+    <string name="edit_default_step">Default step</string>
+    <string name="edit_default_step_helper">Used by the quick buttons on Home. Long press a button to switch temporarily.</string>
+    <string name="edit_tags">Tags</string>
+    <string name="edit_tags_helper">Used for filtering on Home. Add as many as you need.</string>
+    <string name="edit_tag_new_hint">New tag name</string>
+    <string name="edit_tag_empty">No tags yet</string>
+    <string name="edit_tag_add">Add</string>
+    <string name="edit_tag_exists">That tag already exists</string>
+    <string name="edit_tag_name_blank">Tag name cannot be empty</string>
+    <string name="edit_tag_name_long">Tag name must be at most %1$d characters</string>
+    <string name="edit_save">Save</string>
+    <string name="home_step_hint">1–1000</string>
+    <string name="edit_error_name_blank">Enter a name</string>
+    <string name="edit_error_name_long">Name must be at most %1$d characters</string>
+    <string name="edit_error_initial_range">Initial value must be between %1$d and %2$d</string>
+    <string name="edit_error_initial_negative">The initial value cannot be negative while negative values are disallowed</string>
+    <string name="edit_error_step">Step must be between 1 and %1$d</string>
+    <string name="edit_error_negative_current">The current value is %1$d. Raise it to 0 or above before disabling negative values.</string>
+    <string name="edit_unsaved_title">Discard changes?</string>
+    <string name="edit_unsaved_body">Your changes have not been saved.</string>
+
+    <!-- Detail -->
+    <string name="detail_value_label">Current value</string>
+    <string name="detail_reset">Reset</string>
+    <string name="detail_reset_confirm_title">Reset to the initial value?</string>
+    <string name="detail_reset_confirm_body">A %1$s event will be appended. History stays intact.</string>
+    <string name="detail_reset_confirm_action">Reset</string>
+    <string name="detail_events_title">Events</string>
+    <string name="detail_events_count">%1$d entries</string>
+    <string name="detail_filter">Filter</string>
+    <string name="detail_filter_title">Filter events</string>
+    <string name="detail_filter_time">Time range</string>
+    <string name="detail_filter_sign">Sign</string>
+    <string name="detail_filter_note">Notes</string>
+    <string name="detail_time_all">All time</string>
+    <string name="detail_time_7">Last 7 days</string>
+    <string name="detail_time_30">Last 30 days</string>
+    <string name="detail_time_90">Last 90 days</string>
+    <string name="detail_sign_any">Any</string>
+    <string name="detail_sign_positive">Positive only</string>
+    <string name="detail_sign_negative">Negative only</string>
+    <string name="detail_note_any">Any</string>
+    <string name="detail_note_with">With notes</string>
+    <string name="detail_note_without">Without notes</string>
+    <string name="detail_filter_reset">Clear filters</string>
+    <string name="detail_empty_all">No events yet. Go back home and tap plus.</string>
+    <string name="detail_empty_filtered">No events match these filters.</string>
+    <string name="detail_note_dialog_title">Edit note</string>
+    <string name="detail_note_hint">Add a little context</string>
+    <string name="detail_note_save">Save note</string>
+    <string name="detail_note_clear">Clear note</string>
+    <string name="detail_event_actions_title">Event actions</string>
+    <string name="detail_event_undo_range">Undo this and %1$d later events</string>
+    <string name="detail_event_undo_range_title">Undo %1$d events?</string>
+    <string name="detail_event_undo_range_body">History is not deleted; an equal number of reverse events will be appended.</string>
+    <string name="detail_event_undo_range_confirm">Undo</string>
+    <string name="detail_undo_latest">Undo latest event</string>
+    <string name="detail_undo_none">Nothing to undo</string>
+    <string name="detail_undo_done">Undid %1$d events</string>
+    <string name="detail_undo_blocked">Undo would make the value negative</string>
+    <string name="detail_heatmap_title">Activity</string>
+    <string name="detail_heatmap_metric">Measure</string>
+    <string name="detail_heatmap_metric_count">Event count</string>
+    <string name="detail_heatmap_metric_abs">Absolute delta</string>
+    <string name="detail_heatmap_metric_net">Net delta</string>
+    <string name="detail_heatmap_granularity">Granularity</string>
+    <string name="detail_heatmap_minute">Minute</string>
+    <string name="detail_heatmap_hour">Hour</string>
+    <string name="detail_heatmap_day">Day</string>
+    <string name="detail_heatmap_week">Week</string>
+    <string name="detail_heatmap_month">Month</string>
+    <string name="detail_heatmap_less">Less</string>
+    <string name="detail_heatmap_more">More</string>
+    <string name="detail_heatmap_negative">Net decrease</string>
+    <string name="detail_heatmap_empty">No activity in this window</string>
+    <string name="detail_heatmap_summary">%1$d events</string>
+    <string name="detail_heatmap_peak">Peak %1$d</string>
+    <string name="detail_heatmap_range">%1$s to %2$s</string>
+    <string name="detail_event_source_manual">Manual</string>
+    <string name="detail_event_source_widget">Widget</string>
+    <string name="detail_event_source_shortcut">Shortcut</string>
+    <string name="detail_event_source_reset">Reset</string>
+    <string name="detail_event_source_undo">Undo</string>
+    <string name="detail_note_label">Note: %1$s</string>
+    <string name="detail_no_note">No note</string>
+    <string name="detail_pinned_badge">Pinned</string>
+
+    <!-- Quick count -->
+    <string name="quick_exit">Exit</string>
+    <string name="quick_session">This session %1$s</string>
+    <string name="quick_volume_hint">Volume keys also work</string>
+    <string name="quick_increase">Increase</string>
+    <string name="quick_decrease">Decrease</string>
+    <string name="quick_step_label">Step %1$d</string>
+    <string name="quick_title">Quick count</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">Follow system</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_note">Dark mode uses layered luminance instead of inverted colors.</string>
+    <string name="settings_card_size">Card size</string>
+    <string name="settings_card_size_compact">Compact</string>
+    <string name="settings_card_size_standard">Standard</string>
+    <string name="settings_card_size_comfortable">Comfortable</string>
+    <string name="settings_card_size_note">Only changes spacing and the value size on Home; data is unchanged.</string>
+    <string name="settings_data">Data</string>
+    <string name="settings_export_json">Export JSON backup</string>
+    <string name="settings_export_json_desc">Counters, initial values, events, notes and tags.</string>
+    <string name="settings_export_csv">Export CSV event table</string>
+    <string name="settings_export_csv_desc">For spreadsheets only. Never imported.</string>
+    <string name="settings_import_json">Import JSON</string>
+    <string name="settings_import_json_desc">Merge into current data or replace it with the backup.</string>
+    <string name="settings_export_success">Exported %1$d counters and %2$d events</string>
+    <string name="settings_export_failed">Export failed. Try again.</string>
+    <string name="settings_export_empty">There is nothing to export yet</string>
+    <string name="settings_import_read_failed">Could not read the selected file</string>
+    <string name="settings_import_invalid">Invalid file format</string>
+    <string name="settings_import_invalid_field">Invalid field: %1$s (%2$s)</string>
+    <string name="settings_import_unsupported">Unsupported file version: %1$d</string>
+    <string name="settings_import_missing_version">The file is missing schemaVersion</string>
+    <string name="settings_import_malformed">The file is not valid JSON</string>
+    <string name="settings_import_mode_title">Import mode</string>
+    <string name="settings_import_merge">Merge</string>
+    <string name="settings_import_merge_desc">Deduplicate by event ID and keep existing data.</string>
+    <string name="settings_import_replace">Replace</string>
+    <string name="settings_import_replace_desc">Erase current data, then write the file.</string>
+    <string name="settings_import_replace_confirm_title">Replace all data?</string>
+    <string name="settings_import_replace_confirm_body">The current %1$d counters and %2$d events will be deleted permanently.</string>
+    <string name="settings_import_confirm_replace">Replace</string>
+    <string name="settings_import_negative_title">Import would create negative values</string>
+    <string name="settings_import_negative_body">These counters would end below zero:\n%1$s</string>
+    <string name="settings_import_negative_skip">Skip those counters</string>
+    <string name="settings_import_negative_allow">Allow negative values</string>
+    <string name="settings_import_negative_allow_hint">Affected counters will be switched to “allow negative” to keep data consistent.</string>
+    <string name="settings_import_done">Import complete: %1$d counters, %2$d events</string>
+    <string name="settings_import_suffix_duplicates"> · %1$d duplicate events skipped</string>
+    <string name="settings_import_suffix_skipped"> · %1$d counters skipped</string>
+    <string name="settings_import_done_skipped">Import complete, %1$d counters skipped</string>
+    <string name="settings_import_duplicates">Skipped %1$d duplicate events</string>
+    <string name="settings_import_warnings">Skipped %1$d problematic entries</string>
+    <string name="settings_import_failed">Import failed</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_body">Count is a local-first long-term counter. No account, ads, analytics or network permission. Data stays on this device, so export a JSON backup from time to time.</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_stats">%1$d counters · %2$d events · %3$d tags</string>
+    <string name="settings_busy">Working</string>
+    <string name="settings_privacy">No network permission · No ads · No account</string>
+    <string name="settings_shortcut_section">Shortcuts</string>
+    <string name="settings_shortcut_hint">Create a home screen shortcut for any counter from its card menu.</string>
+
+    <!-- Shortcut -->
+    <string name="shortcut_short_label">%1$s</string>
+    <string name="shortcut_long_label">Count · %1$s</string>
+    <string name="shortcut_failed">Could not create the shortcut</string>
+
+    <!-- Backup field names -->
+    <string name="field_id">ID</string>
+    <string name="field_name">name</string>
+    <string name="field_initial_value">initial value</string>
+    <string name="field_allow_negative">allow negative</string>
+    <string name="field_created_at">created at</string>
+    <string name="field_sort_order">sort order</string>
+    <string name="field_pinned">pinned</string>
+    <string name="field_default_step">default step</string>
+    <string name="field_delta">delta</string>
+    <string name="field_timestamp">timestamp</string>
+    <string name="field_source">source</string>
+    <string name="field_note">note</string>
+    <string name="field_schema_version">schema version</string>
+    <string name="field_tag_id">tag</string>
+    <string name="field_counter_list">counter list</string>
+
+    <!-- Accessibility -->
+    <string name="a11y_step_button">Change step</string>
+    <string name="a11y_current_value">Current value %1$d</string>
+    <string name="a11y_select_tag">Filter by tag %1$s</string>
+    <string name="a11y_clear_tag">Clear tag filter</string>
+    <string name="a11y_pinned">Pinned</string>
+    <string name="a11y_heatmap">Activity heatmap from %1$s to %2$s</string>
+    <string name="a11y_settings">Settings</string>
+    <string name="a11y_quick_count">Quick count</string>
+    <string name="a11y_back">Back</string>
+    <string name="a11y_undo_last">Undo last action</string>
+    <string name="a11y_select_theme">Select theme %1$s</string>
+    <string name="a11y_selected">Selected</string>
+</resources>
+
+
+

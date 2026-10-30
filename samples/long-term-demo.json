@@ -1,0 +1,4915 @@
+{
+  "schemaVersion": 1,
+  "app": "Count",
+  "exportedAt": "2026-10-30T17:36:52Z",
+  "counters": [
+    {
+      "id": "demo-counter-reading",
+      "name": "阅读",
+      "initialValue": 0,
+      "allowNegative": false,
+      "createdAt": "2025-08-25T09:00:00+08:00",
+      "sortOrder": 0,
+      "pinned": true,
+      "defaultStep": 1,
+      "tagIds": [
+        "demo-tag-habit",
+        "demo-tag-reading"
+      ],
+      "events": [
+        {
+          "id": "demo-reading-00001",
+          "delta": 1,
+          "timestamp": "2025-09-01T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00002",
+          "delta": 1,
+          "timestamp": "2025-09-01T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00003",
+          "delta": 1,
+          "timestamp": "2025-09-01T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00004",
+          "delta": 1,
+          "timestamp": "2025-09-03T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00005",
+          "delta": 1,
+          "timestamp": "2025-09-03T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00006",
+          "delta": 1,
+          "timestamp": "2025-09-03T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00007",
+          "delta": 1,
+          "timestamp": "2025-09-04T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00008",
+          "delta": 1,
+          "timestamp": "2025-09-05T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00009",
+          "delta": 1,
+          "timestamp": "2025-09-06T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00010",
+          "delta": 1,
+          "timestamp": "2025-09-06T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00011",
+          "delta": 1,
+          "timestamp": "2025-09-06T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00012",
+          "delta": 1,
+          "timestamp": "2025-09-06T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00013",
+          "delta": 1,
+          "timestamp": "2025-09-07T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00014",
+          "delta": 1,
+          "timestamp": "2025-09-07T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00015",
+          "delta": 1,
+          "timestamp": "2025-09-08T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00016",
+          "delta": 1,
+          "timestamp": "2025-09-08T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00017",
+          "delta": 1,
+          "timestamp": "2025-09-08T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00018",
+          "delta": 1,
+          "timestamp": "2025-09-09T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00019",
+          "delta": 1,
+          "timestamp": "2025-09-09T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00020",
+          "delta": 1,
+          "timestamp": "2025-09-09T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00021",
+          "delta": 1,
+          "timestamp": "2025-09-10T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00022",
+          "delta": 1,
+          "timestamp": "2025-09-11T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00023",
+          "delta": 1,
+          "timestamp": "2025-09-11T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00024",
+          "delta": 1,
+          "timestamp": "2025-09-12T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00025",
+          "delta": 1,
+          "timestamp": "2025-09-12T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00026",
+          "delta": 1,
+          "timestamp": "2025-09-12T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00027",
+          "delta": 1,
+          "timestamp": "2025-09-13T22:20:00+08:00",
+          "note": "重读旧书",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00028",
+          "delta": 1,
+          "timestamp": "2025-09-14T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00029",
+          "delta": 1,
+          "timestamp": "2025-09-15T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00030",
+          "delta": 1,
+          "timestamp": "2025-09-15T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00031",
+          "delta": 1,
+          "timestamp": "2025-09-15T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00032",
+          "delta": 1,
+          "timestamp": "2025-09-16T21:10:00+08:00",
+          "note": "睡前读了几页",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00033",
+          "delta": 1,
+          "timestamp": "2025-09-16T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00034",
+          "delta": 1,
+          "timestamp": "2025-09-17T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00035",
+          "delta": 1,
+          "timestamp": "2025-09-17T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00036",
+          "delta": 1,
+          "timestamp": "2025-09-18T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00037",
+          "delta": 1,
+          "timestamp": "2025-09-18T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00038",
+          "delta": 1,
+          "timestamp": "2025-09-19T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00039",
+          "delta": 1,
+          "timestamp": "2025-09-19T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00040",
+          "delta": 1,
+          "timestamp": "2025-09-20T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00041",
+          "delta": 1,
+          "timestamp": "2025-09-21T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00042",
+          "delta": 1,
+          "timestamp": "2025-09-21T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00043",
+          "delta": 1,
+          "timestamp": "2025-09-22T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00044",
+          "delta": 1,
+          "timestamp": "2025-09-23T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00045",
+          "delta": 1,
+          "timestamp": "2025-09-24T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00046",
+          "delta": 1,
+          "timestamp": "2025-09-25T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00047",
+          "delta": 1,
+          "timestamp": "2025-09-26T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00048",
+          "delta": 1,
+          "timestamp": "2025-09-27T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00049",
+          "delta": 1,
+          "timestamp": "2025-09-27T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00050",
+          "delta": 1,
+          "timestamp": "2025-09-29T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00051",
+          "delta": 1,
+          "timestamp": "2025-09-29T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00052",
+          "delta": 1,
+          "timestamp": "2025-09-29T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00053",
+          "delta": 1,
+          "timestamp": "2025-09-30T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00054",
+          "delta": 1,
+          "timestamp": "2025-09-30T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00055",
+          "delta": 1,
+          "timestamp": "2025-10-01T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00056",
+          "delta": 1,
+          "timestamp": "2025-10-02T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00057",
+          "delta": 1,
+          "timestamp": "2025-10-03T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00058",
+          "delta": 1,
+          "timestamp": "2025-10-03T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00059",
+          "delta": 1,
+          "timestamp": "2025-10-03T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00060",
+          "delta": 1,
+          "timestamp": "2025-10-03T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00061",
+          "delta": 1,
+          "timestamp": "2025-10-04T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00062",
+          "delta": 1,
+          "timestamp": "2025-10-04T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00063",
+          "delta": 1,
+          "timestamp": "2025-10-04T21:10:00+08:00",
+          "note": "咖啡馆等位时读的",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00064",
+          "delta": 1,
+          "timestamp": "2025-10-04T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00065",
+          "delta": 1,
+          "timestamp": "2025-10-06T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00066",
+          "delta": 1,
+          "timestamp": "2025-10-06T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00067",
+          "delta": 1,
+          "timestamp": "2025-10-07T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00068",
+          "delta": 1,
+          "timestamp": "2025-10-08T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00069",
+          "delta": 1,
+          "timestamp": "2025-10-08T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00070",
+          "delta": 1,
+          "timestamp": "2025-10-10T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00071",
+          "delta": 1,
+          "timestamp": "2025-10-11T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00072",
+          "delta": 1,
+          "timestamp": "2025-10-11T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00073",
+          "delta": 1,
+          "timestamp": "2025-10-12T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00074",
+          "delta": 1,
+          "timestamp": "2025-10-13T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00075",
+          "delta": 1,
+          "timestamp": "2025-10-13T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00076",
+          "delta": 1,
+          "timestamp": "2025-10-14T12:40:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00077",
+          "delta": 1,
+          "timestamp": "2025-10-14T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00078",
+          "delta": 1,
+          "timestamp": "2025-10-15T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00079",
+          "delta": 1,
+          "timestamp": "2025-10-16T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00080",
+          "delta": 1,
+          "timestamp": "2025-10-17T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00081",
+          "delta": 1,
+          "timestamp": "2025-10-18T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00082",
+          "delta": 1,
+          "timestamp": "2025-10-19T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00083",
+          "delta": 1,
+          "timestamp": "2025-10-19T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00084",
+          "delta": 1,
+          "timestamp": "2025-10-20T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00085",
+          "delta": 1,
+          "timestamp": "2025-10-21T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00086",
+          "delta": 1,
+          "timestamp": "2025-10-23T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00087",
+          "delta": 1,
+          "timestamp": "2025-10-24T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00088",
+          "delta": 1,
+          "timestamp": "2025-10-25T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00089",
+          "delta": 1,
+          "timestamp": "2025-10-25T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00090",
+          "delta": 1,
+          "timestamp": "2025-10-25T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00091",
+          "delta": 1,
+          "timestamp": "2025-10-26T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00092",
+          "delta": 1,
+          "timestamp": "2025-10-26T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00093",
+          "delta": 1,
+          "timestamp": "2025-10-29T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00094",
+          "delta": 1,
+          "timestamp": "2025-10-30T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00095",
+          "delta": 1,
+          "timestamp": "2025-11-01T08:05:00+08:00",
+          "note": "通勤路上",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00096",
+          "delta": 1,
+          "timestamp": "2025-11-02T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00097",
+          "delta": 1,
+          "timestamp": "2025-11-05T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00098",
+          "delta": 1,
+          "timestamp": "2025-11-05T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00099",
+          "delta": 1,
+          "timestamp": "2025-11-06T08:05:00+08:00",
+          "note": "只读了两页，但算开始了",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00100",
+          "delta": 1,
+          "timestamp": "2025-11-06T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00101",
+          "delta": 1,
+          "timestamp": "2025-11-07T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00102",
+          "delta": 1,
+          "timestamp": "2025-11-08T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00103",
+          "delta": 1,
+          "timestamp": "2025-11-09T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00104",
+          "delta": 1,
+          "timestamp": "2025-11-09T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00105",
+          "delta": 1,
+          "timestamp": "2025-11-11T07:35:00+08:00",
+          "note": "通勤路上",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00106",
+          "delta": 1,
+          "timestamp": "2025-11-11T21:45:00+08:00",
+          "note": "读完了这一章",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00107",
+          "delta": 1,
+          "timestamp": "2025-11-12T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00108",
+          "delta": 1,
+          "timestamp": "2025-11-12T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00109",
+          "delta": 1,
+          "timestamp": "2025-11-14T21:10:00+08:00",
+          "note": "读完了这一章",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00110",
+          "delta": 1,
+          "timestamp": "2025-11-14T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00111",
+          "delta": 1,
+          "timestamp": "2025-11-15T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00112",
+          "delta": 1,
+          "timestamp": "2025-11-15T22:20:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00113",
+          "delta": 1,
+          "timestamp": "2025-11-16T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00114",
+          "delta": 1,
+          "timestamp": "2025-11-16T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00115",
+          "delta": 1,
+          "timestamp": "2025-11-16T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00116",
+          "delta": 1,
+          "timestamp": "2025-11-17T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00117",
+          "delta": 1,
+          "timestamp": "2025-11-17T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00118",
+          "delta": 1,
+          "timestamp": "2025-11-17T22:20:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00119",
+          "delta": 1,
+          "timestamp": "2025-11-18T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00120",
+          "delta": 1,
+          "timestamp": "2025-11-19T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00121",
+          "delta": 1,
+          "timestamp": "2025-11-19T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00122",
+          "delta": 1,
+          "timestamp": "2025-11-20T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00123",
+          "delta": 1,
+          "timestamp": "2025-11-20T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00124",
+          "delta": 1,
+          "timestamp": "2025-11-21T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00125",
+          "delta": 1,
+          "timestamp": "2025-11-22T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00126",
+          "delta": 1,
+          "timestamp": "2025-11-24T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00127",
+          "delta": 1,
+          "timestamp": "2025-11-24T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00128",
+          "delta": 1,
+          "timestamp": "2025-11-25T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00129",
+          "delta": 1,
+          "timestamp": "2025-11-26T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00130",
+          "delta": 1,
+          "timestamp": "2025-11-26T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00131",
+          "delta": 1,
+          "timestamp": "2025-11-27T07:35:00+08:00",
+          "note": "读完了这一章",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00132",
+          "delta": 1,
+          "timestamp": "2025-11-28T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00133",
+          "delta": 1,
+          "timestamp": "2025-11-29T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00134",
+          "delta": 1,
+          "timestamp": "2025-11-29T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00135",
+          "delta": 1,
+          "timestamp": "2025-11-30T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00136",
+          "delta": 1,
+          "timestamp": "2025-12-01T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00137",
+          "delta": 1,
+          "timestamp": "2025-12-02T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00138",
+          "delta": 1,
+          "timestamp": "2025-12-02T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00139",
+          "delta": 1,
+          "timestamp": "2025-12-02T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00140",
+          "delta": 1,
+          "timestamp": "2025-12-03T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00141",
+          "delta": 1,
+          "timestamp": "2025-12-03T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00142",
+          "delta": 1,
+          "timestamp": "2025-12-05T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00143",
+          "delta": 1,
+          "timestamp": "2025-12-05T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00144",
+          "delta": 1,
+          "timestamp": "2025-12-05T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00145",
+          "delta": 1,
+          "timestamp": "2025-12-06T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00146",
+          "delta": 1,
+          "timestamp": "2025-12-06T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00147",
+          "delta": 1,
+          "timestamp": "2025-12-06T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00148",
+          "delta": 1,
+          "timestamp": "2025-12-06T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00149",
+          "delta": 1,
+          "timestamp": "2025-12-07T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00150",
+          "delta": 1,
+          "timestamp": "2025-12-08T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00151",
+          "delta": 1,
+          "timestamp": "2025-12-09T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00152",
+          "delta": 1,
+          "timestamp": "2025-12-09T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00153",
+          "delta": 1,
+          "timestamp": "2025-12-09T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00154",
+          "delta": 1,
+          "timestamp": "2025-12-10T12:40:00+08:00",
+          "note": "通勤路上",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00155",
+          "delta": 1,
+          "timestamp": "2025-12-11T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00156",
+          "delta": 1,
+          "timestamp": "2025-12-11T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00157",
+          "delta": 1,
+          "timestamp": "2025-12-12T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00158",
+          "delta": 1,
+          "timestamp": "2025-12-13T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00159",
+          "delta": 1,
+          "timestamp": "2025-12-14T07:35:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00160",
+          "delta": 1,
+          "timestamp": "2025-12-15T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00161",
+          "delta": 1,
+          "timestamp": "2025-12-15T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00162",
+          "delta": 1,
+          "timestamp": "2025-12-15T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00163",
+          "delta": 1,
+          "timestamp": "2025-12-15T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00164",
+          "delta": 1,
+          "timestamp": "2025-12-16T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00165",
+          "delta": 1,
+          "timestamp": "2025-12-17T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00166",
+          "delta": 1,
+          "timestamp": "2025-12-21T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00167",
+          "delta": 1,
+          "timestamp": "2025-12-22T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00168",
+          "delta": 1,
+          "timestamp": "2025-12-28T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00169",
+          "delta": 1,
+          "timestamp": "2025-12-28T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00170",
+          "delta": 1,
+          "timestamp": "2026-01-02T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00171",
+          "delta": 1,
+          "timestamp": "2026-01-03T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00172",
+          "delta": 1,
+          "timestamp": "2026-01-04T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00173",
+          "delta": 1,
+          "timestamp": "2026-01-04T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00174",
+          "delta": 1,
+          "timestamp": "2026-01-04T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00175",
+          "delta": 1,
+          "timestamp": "2026-01-05T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00176",
+          "delta": 1,
+          "timestamp": "2026-01-05T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00177",
+          "delta": 1,
+          "timestamp": "2026-01-06T07:35:00+08:00",
+          "note": "咖啡馆等位时读的",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00178",
+          "delta": 1,
+          "timestamp": "2026-01-06T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00179",
+          "delta": 1,
+          "timestamp": "2026-01-07T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00180",
+          "delta": 1,
+          "timestamp": "2026-01-08T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00181",
+          "delta": 1,
+          "timestamp": "2026-01-08T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00182",
+          "delta": 1,
+          "timestamp": "2026-01-09T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00183",
+          "delta": 1,
+          "timestamp": "2026-01-10T12:40:00+08:00",
+          "note": "通勤路上",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00184",
+          "delta": 1,
+          "timestamp": "2026-01-11T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00185",
+          "delta": 1,
+          "timestamp": "2026-01-11T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00186",
+          "delta": 1,
+          "timestamp": "2026-01-12T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00187",
+          "delta": 1,
+          "timestamp": "2026-01-12T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00188",
+          "delta": 1,
+          "timestamp": "2026-01-12T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00189",
+          "delta": 1,
+          "timestamp": "2026-01-13T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00190",
+          "delta": 1,
+          "timestamp": "2026-01-14T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00191",
+          "delta": 1,
+          "timestamp": "2026-01-14T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00192",
+          "delta": 1,
+          "timestamp": "2026-01-14T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00193",
+          "delta": 1,
+          "timestamp": "2026-01-14T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00194",
+          "delta": 1,
+          "timestamp": "2026-01-14T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00195",
+          "delta": 1,
+          "timestamp": "2026-01-15T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00196",
+          "delta": 1,
+          "timestamp": "2026-01-16T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00197",
+          "delta": 1,
+          "timestamp": "2026-01-16T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00198",
+          "delta": 1,
+          "timestamp": "2026-01-17T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00199",
+          "delta": 1,
+          "timestamp": "2026-01-18T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00200",
+          "delta": 1,
+          "timestamp": "2026-01-18T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00201",
+          "delta": 1,
+          "timestamp": "2026-01-19T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00202",
+          "delta": 1,
+          "timestamp": "2026-01-19T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00203",
+          "delta": 1,
+          "timestamp": "2026-01-19T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00204",
+          "delta": 1,
+          "timestamp": "2026-01-21T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00205",
+          "delta": 1,
+          "timestamp": "2026-01-22T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00206",
+          "delta": 1,
+          "timestamp": "2026-01-22T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00207",
+          "delta": 1,
+          "timestamp": "2026-01-23T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00208",
+          "delta": 1,
+          "timestamp": "2026-01-24T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00209",
+          "delta": 1,
+          "timestamp": "2026-01-26T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00210",
+          "delta": 1,
+          "timestamp": "2026-01-27T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00211",
+          "delta": 1,
+          "timestamp": "2026-01-29T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00212",
+          "delta": 1,
+          "timestamp": "2026-01-29T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00213",
+          "delta": 1,
+          "timestamp": "2026-01-29T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00214",
+          "delta": 1,
+          "timestamp": "2026-01-29T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00215",
+          "delta": 1,
+          "timestamp": "2026-01-30T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00216",
+          "delta": 1,
+          "timestamp": "2026-01-31T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00217",
+          "delta": 1,
+          "timestamp": "2026-01-31T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00218",
+          "delta": 1,
+          "timestamp": "2026-02-01T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00219",
+          "delta": 1,
+          "timestamp": "2026-02-01T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00220",
+          "delta": 1,
+          "timestamp": "2026-02-01T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00221",
+          "delta": 1,
+          "timestamp": "2026-02-02T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00222",
+          "delta": 1,
+          "timestamp": "2026-02-03T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00223",
+          "delta": 1,
+          "timestamp": "2026-02-03T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00224",
+          "delta": 1,
+          "timestamp": "2026-02-03T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00225",
+          "delta": 1,
+          "timestamp": "2026-02-04T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00226",
+          "delta": 1,
+          "timestamp": "2026-02-04T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00227",
+          "delta": 1,
+          "timestamp": "2026-02-04T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00228",
+          "delta": 1,
+          "timestamp": "2026-02-06T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00229",
+          "delta": 1,
+          "timestamp": "2026-02-06T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00230",
+          "delta": 1,
+          "timestamp": "2026-02-06T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00231",
+          "delta": 1,
+          "timestamp": "2026-02-08T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00232",
+          "delta": 1,
+          "timestamp": "2026-02-09T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00233",
+          "delta": 1,
+          "timestamp": "2026-02-11T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00234",
+          "delta": 1,
+          "timestamp": "2026-02-11T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00235",
+          "delta": 1,
+          "timestamp": "2026-02-11T21:10:00+08:00",
+          "note": "睡前读了几页",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00236",
+          "delta": 1,
+          "timestamp": "2026-02-11T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00237",
+          "delta": 1,
+          "timestamp": "2026-02-11T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00238",
+          "delta": 1,
+          "timestamp": "2026-02-12T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00239",
+          "delta": 1,
+          "timestamp": "2026-02-13T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00240",
+          "delta": 1,
+          "timestamp": "2026-02-13T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00241",
+          "delta": 1,
+          "timestamp": "2026-02-13T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00242",
+          "delta": 1,
+          "timestamp": "2026-02-13T22:20:00+08:00",
+          "note": "咖啡馆等位时读的",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00243",
+          "delta": 1,
+          "timestamp": "2026-02-14T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00244",
+          "delta": 1,
+          "timestamp": "2026-02-15T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00245",
+          "delta": 1,
+          "timestamp": "2026-02-15T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00246",
+          "delta": 1,
+          "timestamp": "2026-02-17T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00247",
+          "delta": 1,
+          "timestamp": "2026-02-17T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00248",
+          "delta": 1,
+          "timestamp": "2026-02-18T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00249",
+          "delta": 1,
+          "timestamp": "2026-02-18T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00250",
+          "delta": 1,
+          "timestamp": "2026-02-19T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00251",
+          "delta": 1,
+          "timestamp": "2026-02-19T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00252",
+          "delta": 1,
+          "timestamp": "2026-02-20T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00253",
+          "delta": 1,
+          "timestamp": "2026-02-21T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00254",
+          "delta": 1,
+          "timestamp": "2026-02-21T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00255",
+          "delta": 1,
+          "timestamp": "2026-02-22T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00256",
+          "delta": 1,
+          "timestamp": "2026-02-22T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00257",
+          "delta": 1,
+          "timestamp": "2026-02-23T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00258",
+          "delta": 1,
+          "timestamp": "2026-02-25T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00259",
+          "delta": 1,
+          "timestamp": "2026-02-25T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00260",
+          "delta": 1,
+          "timestamp": "2026-02-25T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00261",
+          "delta": 1,
+          "timestamp": "2026-02-26T08:05:00+08:00",
+          "note": "睡前读了几页",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00262",
+          "delta": 1,
+          "timestamp": "2026-02-26T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00263",
+          "delta": 1,
+          "timestamp": "2026-02-26T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00264",
+          "delta": 1,
+          "timestamp": "2026-02-27T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00265",
+          "delta": 1,
+          "timestamp": "2026-02-28T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00266",
+          "delta": 1,
+          "timestamp": "2026-02-28T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00267",
+          "delta": 1,
+          "timestamp": "2026-02-28T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00268",
+          "delta": 1,
+          "timestamp": "2026-03-01T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00269",
+          "delta": 1,
+          "timestamp": "2026-03-01T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00270",
+          "delta": 1,
+          "timestamp": "2026-03-02T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00271",
+          "delta": 1,
+          "timestamp": "2026-03-02T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00272",
+          "delta": 1,
+          "timestamp": "2026-03-03T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00273",
+          "delta": 1,
+          "timestamp": "2026-03-03T21:10:00+08:00",
+          "note": "通勤路上",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00274",
+          "delta": 1,
+          "timestamp": "2026-03-04T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00275",
+          "delta": 1,
+          "timestamp": "2026-03-04T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00276",
+          "delta": 1,
+          "timestamp": "2026-03-04T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00277",
+          "delta": 1,
+          "timestamp": "2026-03-05T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00278",
+          "delta": 1,
+          "timestamp": "2026-03-07T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00279",
+          "delta": 1,
+          "timestamp": "2026-03-08T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00280",
+          "delta": 1,
+          "timestamp": "2026-03-08T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00281",
+          "delta": 1,
+          "timestamp": "2026-03-10T07:35:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00282",
+          "delta": 1,
+          "timestamp": "2026-03-10T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00283",
+          "delta": 1,
+          "timestamp": "2026-03-12T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00284",
+          "delta": 1,
+          "timestamp": "2026-03-13T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00285",
+          "delta": 1,
+          "timestamp": "2026-03-13T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00286",
+          "delta": 1,
+          "timestamp": "2026-03-17T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00287",
+          "delta": 1,
+          "timestamp": "2026-03-17T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00288",
+          "delta": 1,
+          "timestamp": "2026-03-17T22:20:00+08:00",
+          "note": "通勤路上",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00289",
+          "delta": 1,
+          "timestamp": "2026-03-19T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00290",
+          "delta": 1,
+          "timestamp": "2026-03-19T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00291",
+          "delta": 1,
+          "timestamp": "2026-03-20T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00292",
+          "delta": 1,
+          "timestamp": "2026-03-20T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00293",
+          "delta": 1,
+          "timestamp": "2026-03-20T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00294",
+          "delta": 1,
+          "timestamp": "2026-03-20T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00295",
+          "delta": 1,
+          "timestamp": "2026-03-22T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00296",
+          "delta": 1,
+          "timestamp": "2026-03-22T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00297",
+          "delta": 1,
+          "timestamp": "2026-03-22T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00298",
+          "delta": 1,
+          "timestamp": "2026-03-22T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00299",
+          "delta": 1,
+          "timestamp": "2026-03-23T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00300",
+          "delta": 1,
+          "timestamp": "2026-03-23T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00301",
+          "delta": 1,
+          "timestamp": "2026-03-25T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00302",
+          "delta": 1,
+          "timestamp": "2026-03-25T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00303",
+          "delta": 1,
+          "timestamp": "2026-03-27T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00304",
+          "delta": 1,
+          "timestamp": "2026-03-27T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00305",
+          "delta": 1,
+          "timestamp": "2026-03-28T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00306",
+          "delta": 1,
+          "timestamp": "2026-03-29T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00307",
+          "delta": 1,
+          "timestamp": "2026-03-29T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00308",
+          "delta": 1,
+          "timestamp": "2026-03-30T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00309",
+          "delta": 1,
+          "timestamp": "2026-03-31T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00310",
+          "delta": 1,
+          "timestamp": "2026-03-31T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00311",
+          "delta": 1,
+          "timestamp": "2026-03-31T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00312",
+          "delta": 1,
+          "timestamp": "2026-04-01T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00313",
+          "delta": 1,
+          "timestamp": "2026-04-01T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00314",
+          "delta": 1,
+          "timestamp": "2026-04-02T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00315",
+          "delta": 1,
+          "timestamp": "2026-04-03T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00316",
+          "delta": 1,
+          "timestamp": "2026-04-05T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00317",
+          "delta": 1,
+          "timestamp": "2026-04-06T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00318",
+          "delta": 1,
+          "timestamp": "2026-04-07T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00319",
+          "delta": 1,
+          "timestamp": "2026-04-08T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00320",
+          "delta": 1,
+          "timestamp": "2026-04-10T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00321",
+          "delta": 1,
+          "timestamp": "2026-04-10T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00322",
+          "delta": 1,
+          "timestamp": "2026-04-10T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00323",
+          "delta": 1,
+          "timestamp": "2026-04-11T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00324",
+          "delta": 1,
+          "timestamp": "2026-04-12T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00325",
+          "delta": 1,
+          "timestamp": "2026-04-13T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00326",
+          "delta": 1,
+          "timestamp": "2026-04-14T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00327",
+          "delta": 1,
+          "timestamp": "2026-04-14T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00328",
+          "delta": 1,
+          "timestamp": "2026-04-14T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00329",
+          "delta": 1,
+          "timestamp": "2026-04-15T21:10:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00330",
+          "delta": 1,
+          "timestamp": "2026-04-16T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00331",
+          "delta": 1,
+          "timestamp": "2026-04-19T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00332",
+          "delta": 1,
+          "timestamp": "2026-04-19T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00333",
+          "delta": 1,
+          "timestamp": "2026-04-20T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00334",
+          "delta": 1,
+          "timestamp": "2026-04-22T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00335",
+          "delta": 1,
+          "timestamp": "2026-04-22T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00336",
+          "delta": 1,
+          "timestamp": "2026-04-23T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00337",
+          "delta": 1,
+          "timestamp": "2026-04-23T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00338",
+          "delta": 1,
+          "timestamp": "2026-04-25T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00339",
+          "delta": 1,
+          "timestamp": "2026-04-27T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00340",
+          "delta": 1,
+          "timestamp": "2026-04-27T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00341",
+          "delta": 1,
+          "timestamp": "2026-04-28T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00342",
+          "delta": 1,
+          "timestamp": "2026-04-28T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00343",
+          "delta": 1,
+          "timestamp": "2026-04-29T07:35:00+08:00",
+          "note": "只读了两页，但算开始了",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00344",
+          "delta": 1,
+          "timestamp": "2026-04-29T08:05:00+08:00",
+          "note": "读完了这一章",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00345",
+          "delta": 1,
+          "timestamp": "2026-04-29T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00346",
+          "delta": 1,
+          "timestamp": "2026-04-29T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00347",
+          "delta": 1,
+          "timestamp": "2026-04-29T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00348",
+          "delta": 1,
+          "timestamp": "2026-05-02T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00349",
+          "delta": 1,
+          "timestamp": "2026-05-02T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00350",
+          "delta": 1,
+          "timestamp": "2026-05-03T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00351",
+          "delta": 1,
+          "timestamp": "2026-05-04T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00352",
+          "delta": 1,
+          "timestamp": "2026-05-05T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00353",
+          "delta": 1,
+          "timestamp": "2026-05-06T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00354",
+          "delta": 1,
+          "timestamp": "2026-05-06T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00355",
+          "delta": 1,
+          "timestamp": "2026-05-07T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00356",
+          "delta": 1,
+          "timestamp": "2026-05-08T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00357",
+          "delta": 1,
+          "timestamp": "2026-05-10T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00358",
+          "delta": 1,
+          "timestamp": "2026-05-10T22:20:00+08:00",
+          "note": "睡前读了几页",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00359",
+          "delta": 1,
+          "timestamp": "2026-05-11T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00360",
+          "delta": 1,
+          "timestamp": "2026-05-12T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00361",
+          "delta": 1,
+          "timestamp": "2026-05-13T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00362",
+          "delta": 1,
+          "timestamp": "2026-05-14T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00363",
+          "delta": 1,
+          "timestamp": "2026-05-14T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00364",
+          "delta": 1,
+          "timestamp": "2026-05-15T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00365",
+          "delta": 1,
+          "timestamp": "2026-05-15T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00366",
+          "delta": 1,
+          "timestamp": "2026-05-15T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00367",
+          "delta": 1,
+          "timestamp": "2026-05-16T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00368",
+          "delta": 1,
+          "timestamp": "2026-05-17T21:10:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00369",
+          "delta": 1,
+          "timestamp": "2026-05-18T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00370",
+          "delta": 1,
+          "timestamp": "2026-05-19T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00371",
+          "delta": 1,
+          "timestamp": "2026-05-19T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00372",
+          "delta": 1,
+          "timestamp": "2026-05-19T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00373",
+          "delta": 1,
+          "timestamp": "2026-05-21T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00374",
+          "delta": 1,
+          "timestamp": "2026-05-22T22:20:00+08:00",
+          "note": "重读旧书",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00375",
+          "delta": 1,
+          "timestamp": "2026-05-23T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00376",
+          "delta": 1,
+          "timestamp": "2026-05-23T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00377",
+          "delta": 1,
+          "timestamp": "2026-05-23T21:45:00+08:00",
+          "note": "读完了这一章",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00378",
+          "delta": 1,
+          "timestamp": "2026-05-23T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00379",
+          "delta": 1,
+          "timestamp": "2026-05-25T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00380",
+          "delta": 1,
+          "timestamp": "2026-05-26T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00381",
+          "delta": 1,
+          "timestamp": "2026-05-26T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00382",
+          "delta": 1,
+          "timestamp": "2026-05-27T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00383",
+          "delta": 1,
+          "timestamp": "2026-05-28T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00384",
+          "delta": 1,
+          "timestamp": "2026-05-28T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00385",
+          "delta": 1,
+          "timestamp": "2026-05-29T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00386",
+          "delta": 1,
+          "timestamp": "2026-05-30T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00387",
+          "delta": 1,
+          "timestamp": "2026-05-30T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00388",
+          "delta": 1,
+          "timestamp": "2026-05-30T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00389",
+          "delta": 1,
+          "timestamp": "2026-05-31T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00390",
+          "delta": 1,
+          "timestamp": "2026-05-31T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00391",
+          "delta": 1,
+          "timestamp": "2026-05-31T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00392",
+          "delta": 1,
+          "timestamp": "2026-06-01T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00393",
+          "delta": 1,
+          "timestamp": "2026-06-02T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00394",
+          "delta": 1,
+          "timestamp": "2026-06-02T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00395",
+          "delta": 1,
+          "timestamp": "2026-06-02T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00396",
+          "delta": 1,
+          "timestamp": "2026-06-03T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00397",
+          "delta": 1,
+          "timestamp": "2026-06-03T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00398",
+          "delta": 1,
+          "timestamp": "2026-06-03T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00399",
+          "delta": 1,
+          "timestamp": "2026-06-03T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00400",
+          "delta": 1,
+          "timestamp": "2026-06-05T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00401",
+          "delta": 1,
+          "timestamp": "2026-06-05T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00402",
+          "delta": 1,
+          "timestamp": "2026-06-06T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00403",
+          "delta": 1,
+          "timestamp": "2026-06-06T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00404",
+          "delta": 1,
+          "timestamp": "2026-06-06T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00405",
+          "delta": 1,
+          "timestamp": "2026-06-07T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00406",
+          "delta": 1,
+          "timestamp": "2026-06-08T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00407",
+          "delta": 1,
+          "timestamp": "2026-06-08T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00408",
+          "delta": 1,
+          "timestamp": "2026-06-09T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00409",
+          "delta": 1,
+          "timestamp": "2026-06-09T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00410",
+          "delta": 1,
+          "timestamp": "2026-06-09T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00411",
+          "delta": 1,
+          "timestamp": "2026-06-10T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00412",
+          "delta": 1,
+          "timestamp": "2026-06-14T12:40:00+08:00",
+          "note": "通勤路上",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00413",
+          "delta": 1,
+          "timestamp": "2026-06-14T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00414",
+          "delta": 1,
+          "timestamp": "2026-06-15T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00415",
+          "delta": 1,
+          "timestamp": "2026-06-15T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00416",
+          "delta": 1,
+          "timestamp": "2026-06-16T21:45:00+08:00",
+          "note": "读完了这一章",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00417",
+          "delta": 1,
+          "timestamp": "2026-06-18T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00418",
+          "delta": 1,
+          "timestamp": "2026-06-18T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00419",
+          "delta": 1,
+          "timestamp": "2026-06-19T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00420",
+          "delta": 1,
+          "timestamp": "2026-06-20T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00421",
+          "delta": 1,
+          "timestamp": "2026-06-20T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00422",
+          "delta": 1,
+          "timestamp": "2026-06-23T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00423",
+          "delta": 1,
+          "timestamp": "2026-06-23T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00424",
+          "delta": 1,
+          "timestamp": "2026-06-23T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00425",
+          "delta": 1,
+          "timestamp": "2026-06-23T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00426",
+          "delta": 1,
+          "timestamp": "2026-06-24T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00427",
+          "delta": 1,
+          "timestamp": "2026-06-26T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00428",
+          "delta": 1,
+          "timestamp": "2026-06-27T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00429",
+          "delta": 1,
+          "timestamp": "2026-06-27T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00430",
+          "delta": 1,
+          "timestamp": "2026-06-29T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00431",
+          "delta": 1,
+          "timestamp": "2026-06-29T08:05:00+08:00",
+          "note": "重读旧书",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00432",
+          "delta": 1,
+          "timestamp": "2026-06-29T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00433",
+          "delta": 1,
+          "timestamp": "2026-07-02T08:05:00+08:00",
+          "note": "读完了这一章",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00434",
+          "delta": 1,
+          "timestamp": "2026-07-02T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00435",
+          "delta": 1,
+          "timestamp": "2026-07-03T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00436",
+          "delta": 1,
+          "timestamp": "2026-07-04T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00437",
+          "delta": 1,
+          "timestamp": "2026-07-04T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00438",
+          "delta": 1,
+          "timestamp": "2026-07-04T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00439",
+          "delta": 1,
+          "timestamp": "2026-07-05T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00440",
+          "delta": 1,
+          "timestamp": "2026-07-05T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00441",
+          "delta": 1,
+          "timestamp": "2026-07-07T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00442",
+          "delta": 1,
+          "timestamp": "2026-07-07T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00443",
+          "delta": 1,
+          "timestamp": "2026-07-08T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00444",
+          "delta": 1,
+          "timestamp": "2026-07-08T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00445",
+          "delta": 1,
+          "timestamp": "2026-07-11T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00446",
+          "delta": 1,
+          "timestamp": "2026-07-11T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00447",
+          "delta": 1,
+          "timestamp": "2026-07-11T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00448",
+          "delta": 1,
+          "timestamp": "2026-07-12T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00449",
+          "delta": 1,
+          "timestamp": "2026-07-12T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00450",
+          "delta": 1,
+          "timestamp": "2026-07-13T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00451",
+          "delta": 1,
+          "timestamp": "2026-07-14T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00452",
+          "delta": 1,
+          "timestamp": "2026-07-17T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00453",
+          "delta": 1,
+          "timestamp": "2026-07-18T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00454",
+          "delta": 1,
+          "timestamp": "2026-07-18T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00455",
+          "delta": 1,
+          "timestamp": "2026-07-19T08:05:00+08:00",
+          "note": "咖啡馆等位时读的",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00456",
+          "delta": 1,
+          "timestamp": "2026-07-19T21:10:00+08:00",
+          "note": "咖啡馆等位时读的",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00457",
+          "delta": 1,
+          "timestamp": "2026-07-20T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00458",
+          "delta": 1,
+          "timestamp": "2026-07-21T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00459",
+          "delta": 1,
+          "timestamp": "2026-07-23T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00460",
+          "delta": 1,
+          "timestamp": "2026-07-23T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00461",
+          "delta": 1,
+          "timestamp": "2026-07-24T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00462",
+          "delta": 1,
+          "timestamp": "2026-07-25T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00463",
+          "delta": 1,
+          "timestamp": "2026-07-25T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00464",
+          "delta": 1,
+          "timestamp": "2026-07-26T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00465",
+          "delta": 1,
+          "timestamp": "2026-07-26T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00466",
+          "delta": 1,
+          "timestamp": "2026-07-27T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00467",
+          "delta": 1,
+          "timestamp": "2026-07-27T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00468",
+          "delta": 1,
+          "timestamp": "2026-07-29T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00469",
+          "delta": 1,
+          "timestamp": "2026-07-29T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00470",
+          "delta": 1,
+          "timestamp": "2026-07-29T21:45:00+08:00",
+          "note": "读完了这一章",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00471",
+          "delta": 1,
+          "timestamp": "2026-07-31T08:05:00+08:00",
+          "note": "读完了这一章",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00472",
+          "delta": 1,
+          "timestamp": "2026-07-31T12:40:00+08:00",
+          "note": "通勤路上",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00473",
+          "delta": 1,
+          "timestamp": "2026-07-31T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00474",
+          "delta": 1,
+          "timestamp": "2026-07-31T22:20:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00475",
+          "delta": 1,
+          "timestamp": "2026-08-01T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00476",
+          "delta": 1,
+          "timestamp": "2026-08-02T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00477",
+          "delta": 1,
+          "timestamp": "2026-08-02T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00478",
+          "delta": 1,
+          "timestamp": "2026-08-03T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00479",
+          "delta": 1,
+          "timestamp": "2026-08-03T21:10:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00480",
+          "delta": 1,
+          "timestamp": "2026-08-04T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00481",
+          "delta": 1,
+          "timestamp": "2026-08-04T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00482",
+          "delta": 1,
+          "timestamp": "2026-08-07T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00483",
+          "delta": 1,
+          "timestamp": "2026-08-07T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00484",
+          "delta": 1,
+          "timestamp": "2026-08-08T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00485",
+          "delta": 1,
+          "timestamp": "2026-08-08T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00486",
+          "delta": 1,
+          "timestamp": "2026-08-09T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00487",
+          "delta": 1,
+          "timestamp": "2026-08-09T21:45:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00488",
+          "delta": 1,
+          "timestamp": "2026-08-12T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00489",
+          "delta": 1,
+          "timestamp": "2026-08-12T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00490",
+          "delta": 1,
+          "timestamp": "2026-08-12T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00491",
+          "delta": 1,
+          "timestamp": "2026-08-15T12:40:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00492",
+          "delta": 1,
+          "timestamp": "2026-08-16T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00493",
+          "delta": 1,
+          "timestamp": "2026-08-16T21:10:00+08:00",
+          "note": "睡前读了几页",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00494",
+          "delta": 1,
+          "timestamp": "2026-08-18T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00495",
+          "delta": 1,
+          "timestamp": "2026-08-19T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00496",
+          "delta": 1,
+          "timestamp": "2026-08-19T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00497",
+          "delta": 1,
+          "timestamp": "2026-08-20T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00498",
+          "delta": 1,
+          "timestamp": "2026-08-20T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00499",
+          "delta": 1,
+          "timestamp": "2026-08-20T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00500",
+          "delta": 1,
+          "timestamp": "2026-08-21T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00501",
+          "delta": 1,
+          "timestamp": "2026-08-21T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00502",
+          "delta": 1,
+          "timestamp": "2026-08-21T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00503",
+          "delta": 1,
+          "timestamp": "2026-08-21T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00504",
+          "delta": 1,
+          "timestamp": "2026-08-23T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00505",
+          "delta": 1,
+          "timestamp": "2026-08-24T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00506",
+          "delta": 1,
+          "timestamp": "2026-08-24T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00507",
+          "delta": 1,
+          "timestamp": "2026-08-24T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00508",
+          "delta": 1,
+          "timestamp": "2026-08-24T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00509",
+          "delta": 1,
+          "timestamp": "2026-08-25T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00510",
+          "delta": 1,
+          "timestamp": "2026-08-25T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00511",
+          "delta": 1,
+          "timestamp": "2026-08-26T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00512",
+          "delta": 1,
+          "timestamp": "2026-08-26T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00513",
+          "delta": 1,
+          "timestamp": "2026-08-27T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00514",
+          "delta": 1,
+          "timestamp": "2026-08-28T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00515",
+          "delta": 1,
+          "timestamp": "2026-08-28T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00516",
+          "delta": 1,
+          "timestamp": "2026-08-28T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00517",
+          "delta": 1,
+          "timestamp": "2026-08-29T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00518",
+          "delta": 1,
+          "timestamp": "2026-08-30T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00519",
+          "delta": 1,
+          "timestamp": "2026-08-30T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00520",
+          "delta": 1,
+          "timestamp": "2026-08-31T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00521",
+          "delta": 1,
+          "timestamp": "2026-09-02T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00522",
+          "delta": 1,
+          "timestamp": "2026-09-02T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00523",
+          "delta": 1,
+          "timestamp": "2026-09-02T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00524",
+          "delta": 1,
+          "timestamp": "2026-09-02T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00525",
+          "delta": 1,
+          "timestamp": "2026-09-04T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00526",
+          "delta": 1,
+          "timestamp": "2026-09-05T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00527",
+          "delta": 1,
+          "timestamp": "2026-09-06T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00528",
+          "delta": 1,
+          "timestamp": "2026-09-07T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00529",
+          "delta": 1,
+          "timestamp": "2026-09-08T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00530",
+          "delta": 1,
+          "timestamp": "2026-09-08T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00531",
+          "delta": 1,
+          "timestamp": "2026-09-08T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00532",
+          "delta": 1,
+          "timestamp": "2026-09-10T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00533",
+          "delta": 1,
+          "timestamp": "2026-09-11T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00534",
+          "delta": 1,
+          "timestamp": "2026-09-11T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00535",
+          "delta": 1,
+          "timestamp": "2026-09-11T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00536",
+          "delta": 1,
+          "timestamp": "2026-09-13T08:05:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00537",
+          "delta": 1,
+          "timestamp": "2026-09-13T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00538",
+          "delta": 1,
+          "timestamp": "2026-09-14T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00539",
+          "delta": 1,
+          "timestamp": "2026-09-14T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00540",
+          "delta": 1,
+          "timestamp": "2026-09-14T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00541",
+          "delta": 1,
+          "timestamp": "2026-09-15T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00542",
+          "delta": 1,
+          "timestamp": "2026-09-15T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00543",
+          "delta": 1,
+          "timestamp": "2026-09-15T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00544",
+          "delta": 1,
+          "timestamp": "2026-09-15T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00545",
+          "delta": 1,
+          "timestamp": "2026-09-15T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00546",
+          "delta": 1,
+          "timestamp": "2026-09-16T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00547",
+          "delta": 1,
+          "timestamp": "2026-09-17T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00548",
+          "delta": 1,
+          "timestamp": "2026-09-18T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00549",
+          "delta": 1,
+          "timestamp": "2026-09-19T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00550",
+          "delta": 1,
+          "timestamp": "2026-09-20T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00551",
+          "delta": 1,
+          "timestamp": "2026-09-20T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00552",
+          "delta": 1,
+          "timestamp": "2026-09-21T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00553",
+          "delta": 1,
+          "timestamp": "2026-09-22T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00554",
+          "delta": 1,
+          "timestamp": "2026-09-22T08:05:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00555",
+          "delta": 1,
+          "timestamp": "2026-09-26T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00556",
+          "delta": 1,
+          "timestamp": "2026-09-26T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00557",
+          "delta": 1,
+          "timestamp": "2026-09-26T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00558",
+          "delta": 1,
+          "timestamp": "2026-09-27T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00559",
+          "delta": 1,
+          "timestamp": "2026-09-27T08:05:00+08:00",
+          "note": "读完了这一章",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00560",
+          "delta": 1,
+          "timestamp": "2026-09-27T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00561",
+          "delta": 1,
+          "timestamp": "2026-09-27T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00562",
+          "delta": 1,
+          "timestamp": "2026-09-29T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00563",
+          "delta": 1,
+          "timestamp": "2026-09-30T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00564",
+          "delta": 1,
+          "timestamp": "2026-09-30T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00565",
+          "delta": 1,
+          "timestamp": "2026-10-01T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00566",
+          "delta": 1,
+          "timestamp": "2026-10-01T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00567",
+          "delta": 1,
+          "timestamp": "2026-10-01T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00568",
+          "delta": 1,
+          "timestamp": "2026-10-01T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00569",
+          "delta": 1,
+          "timestamp": "2026-10-03T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00570",
+          "delta": 1,
+          "timestamp": "2026-10-04T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00571",
+          "delta": 1,
+          "timestamp": "2026-10-07T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00572",
+          "delta": 1,
+          "timestamp": "2026-10-07T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00573",
+          "delta": 1,
+          "timestamp": "2026-10-08T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00574",
+          "delta": 1,
+          "timestamp": "2026-10-09T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00575",
+          "delta": 1,
+          "timestamp": "2026-10-10T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00576",
+          "delta": 1,
+          "timestamp": "2026-10-10T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00577",
+          "delta": 1,
+          "timestamp": "2026-10-11T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00578",
+          "delta": 1,
+          "timestamp": "2026-10-12T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00579",
+          "delta": 1,
+          "timestamp": "2026-10-13T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00580",
+          "delta": 1,
+          "timestamp": "2026-10-13T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00581",
+          "delta": 1,
+          "timestamp": "2026-10-14T12:40:00+08:00",
+          "note": "只读了两页，但算开始了",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00582",
+          "delta": 1,
+          "timestamp": "2026-10-14T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00583",
+          "delta": 1,
+          "timestamp": "2026-10-14T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00584",
+          "delta": 1,
+          "timestamp": "2026-10-15T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00585",
+          "delta": 1,
+          "timestamp": "2026-10-16T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00586",
+          "delta": 1,
+          "timestamp": "2026-10-16T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00587",
+          "delta": 1,
+          "timestamp": "2026-10-16T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00588",
+          "delta": 1,
+          "timestamp": "2026-10-17T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00589",
+          "delta": 1,
+          "timestamp": "2026-10-18T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00590",
+          "delta": 1,
+          "timestamp": "2026-10-18T21:10:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00591",
+          "delta": 1,
+          "timestamp": "2026-10-19T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00592",
+          "delta": 1,
+          "timestamp": "2026-10-20T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00593",
+          "delta": 1,
+          "timestamp": "2026-10-20T08:05:00+08:00",
+          "note": "周末下午",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00594",
+          "delta": 1,
+          "timestamp": "2026-10-20T22:20:00+08:00",
+          "note": "睡前读了几页",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00595",
+          "delta": 1,
+          "timestamp": "2026-10-21T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00596",
+          "delta": 1,
+          "timestamp": "2026-10-22T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00597",
+          "delta": 1,
+          "timestamp": "2026-10-22T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00598",
+          "delta": 1,
+          "timestamp": "2026-10-22T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00599",
+          "delta": 1,
+          "timestamp": "2026-10-23T08:05:00+08:00",
+          "note": "只读了两页，但算开始了",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00600",
+          "delta": 1,
+          "timestamp": "2026-10-24T12:40:00+08:00",
+          "note": "通勤路上",
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00601",
+          "delta": 1,
+          "timestamp": "2026-10-25T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00602",
+          "delta": 1,
+          "timestamp": "2026-10-25T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00603",
+          "delta": 1,
+          "timestamp": "2026-10-26T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00604",
+          "delta": 1,
+          "timestamp": "2026-10-28T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00605",
+          "delta": 1,
+          "timestamp": "2026-10-29T08:05:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00606",
+          "delta": 1,
+          "timestamp": "2026-10-29T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00607",
+          "delta": 1,
+          "timestamp": "2026-10-30T07:35:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00608",
+          "delta": 1,
+          "timestamp": "2026-10-30T12:40:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00609",
+          "delta": 1,
+          "timestamp": "2026-10-30T21:45:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        },
+        {
+          "id": "demo-reading-00610",
+          "delta": 1,
+          "timestamp": "2026-10-30T22:20:00+08:00",
+          "note": null,
+          "source": "MANUAL",
+          "sessionId": null
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "id": "demo-tag-habit",
+      "name": "习惯",
+      "createdAt": "2025-08-25T09:00:00+08:00"
+    },
+    {
+      "id": "demo-tag-reading",
+      "name": "阅读",
+      "createdAt": "2025-08-25T09:00:00+08:00"
+    }
+  ]
+}

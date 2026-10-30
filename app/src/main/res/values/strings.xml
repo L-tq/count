@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Count</string>
+    <string name="brand_tagline">把重复的小事，记成看得见的数字</string>
+
+    <!-- Common actions -->
+    <string name="action_cancel">取消</string>
+    <string name="action_confirm">确定</string>
+    <string name="action_delete">删除</string>
+    <string name="action_save">保存</string>
+    <string name="action_close">关闭</string>
+    <string name="action_done">完成</string>
+    <string name="action_ok">好</string>
+    <string name="action_undo">撤销</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_add">添加</string>
+    <string name="action_back">返回</string>
+    <string name="action_more">更多</string>
+    <string name="action_reset">重置</string>
+    <string name="action_clear">清除</string>
+    <string name="action_retry">重试</string>
+    <string name="action_apply">应用</string>
+    <string name="action_export">导出</string>
+    <string name="action_import">导入</string>
+    <string name="action_remove">移除</string>
+    <string name="action_continue">继续</string>
+
+    <!-- Shared -->
+    <string name="number_signed">%1$+d</string>
+    <string name="count_events">%1$d 次</string>
+    <string name="error_generic">操作失败，请重试</string>
+    <string name="value_counter_missing">计数器不存在</string>
+    <string name="note_too_long">备注不能超过 %1$d 个字符</string>
+    <string name="backup_field_fallback">字段</string>
+
+    <!-- Home -->
+    <string name="home_title">Count</string>
+    <string name="home_pinned_section">置顶</string>
+    <string name="home_all_section">全部计数器</string>
+    <string name="home_empty_title">还没有计数器</string>
+    <string name="home_empty_body">新建一个，把重复的小事记成数字。也可以在设置里导入之前导出的备份。</string>
+    <string name="home_new_counter">新建计数器</string>
+    <string name="home_card_menu_edit">编辑</string>
+    <string name="home_card_menu_pin">置顶</string>
+    <string name="home_card_menu_unpin">取消置顶</string>
+    <string name="home_card_menu_tags">标签</string>
+    <string name="home_card_menu_shortcut">创建快捷方式</string>
+    <string name="home_card_menu_delete">删除</string>
+    <string name="home_delete_title">删除「%1$s」？</string>
+    <string name="home_delete_body">这个计数器和它的全部记录都会被删除，无法恢复。</string>
+    <string name="home_shortcut_created">已请求创建快捷方式</string>
+    <string name="home_shortcut_failed">无法创建快捷方式</string>
+    <string name="home_drag_handle">拖动排序</string>
+    <string name="home_tag_filter_all">全部</string>
+    <string name="home_tag_manage">管理标签</string>
+    <string name="tag_manage_title">管理标签</string>
+    <string name="tag_manage_hint">删除标签只会从计数器上移除它，计数器和记录都会保留。</string>
+    <string name="tag_delete_title">删除标签「%1$s」？</string>
+    <string name="tag_delete_body">使用这个标签的计数器会移除该标签，计数器和记录不会被删除；删除后无法恢复标签关联。</string>
+    <string name="tag_delete_content_description">删除标签 %1$s</string>
+    <string name="tag_deleted">已删除标签「%1$s」</string>
+    <string name="tag_delete_failed">删除标签失败</string>
+    <string name="home_step_title">本次步长</string>
+    <string name="home_step_option">+%1$d</string>
+    <string name="home_step_custom_title">自定义步长</string>
+    <string name="home_step_custom_hint">1–1000</string>
+    <string name="home_step_applied">步长已切换为 %1$d</string>
+    <string name="home_card_open">查看 %1$s</string>
+    <string name="home_card_add">增加 %1$s</string>
+    <string name="home_card_subtract">减少 %1$s</string>
+    <string name="home_card_more">更多操作：%1$s</string>
+    <string name="home_menu_tags_title">选择标签</string>
+    <string name="home_counters_empty_filtered">这个标签下还没有计数器</string>
+    <string name="home_reorder_hint">长按右侧手柄拖动排序</string>
+    <string name="home_events_preview">%1$d 次记录</string>
+
+    <!-- Snackbar -->
+    <string name="snackbar_saved">已记录</string>
+    <string name="snackbar_value">当前值 %1$d</string>
+    <string name="snackbar_undo_success">已撤销</string>
+    <string name="snackbar_undo_blocked">撤销会导致负数，已取消</string>
+    <string name="snackbar_reset">已重置到初始值</string>
+
+    <!-- Adjust errors -->
+    <string name="value_blocked_negative">当前值 %1$d，再变化 %2$d 会小于 0</string>
+    <string name="value_already_baseline">已经是初始值</string>
+    <string name="value_invalid">数值无效</string>
+    <string name="value_delta_out_of_range">单次变化数值超出允许范围</string>
+
+    <!-- Create / edit -->
+    <string name="edit_title_new">新建计数器</string>
+    <string name="edit_title_edit">编辑计数器</string>
+    <string name="edit_name">名称</string>
+    <string name="edit_name_hint">例如：喝水、读书、俯卧撑</string>
+    <string name="edit_initial_value">初始值</string>
+    <string name="edit_initial_hint">可以为负数</string>
+    <string name="edit_initial_helper">修改初始值只改变起始基线，不会改动任何历史记录。</string>
+    <string name="edit_allow_negative">允许负值</string>
+    <string name="edit_allow_negative_helper">关闭时，任何会让当前值小于 0 的操作都会被阻止。</string>
+    <string name="edit_default_step">默认步长</string>
+    <string name="edit_default_step_helper">主页快速加减使用这个步长，长按按钮可临时切换。</string>
+    <string name="edit_tags">标签</string>
+    <string name="edit_tags_helper">用于主页筛选，可自由添加。</string>
+    <string name="edit_tag_new_hint">新标签名称</string>
+    <string name="edit_tag_empty">还没有标签</string>
+    <string name="edit_tag_add">添加</string>
+    <string name="edit_tag_exists">标签已存在</string>
+    <string name="edit_tag_name_blank">标签名不能为空</string>
+    <string name="edit_tag_name_long">标签名不能超过 %1$d 个字符</string>
+    <string name="edit_save">保存</string>
+    <string name="home_step_hint">1–1000</string>
+    <string name="edit_error_name_blank">请输入名称</string>
+    <string name="edit_error_name_long">名称不能超过 %1$d 个字符</string>
+    <string name="edit_error_initial_range">初始值需在 %1$d 到 %2$d 之间</string>
+    <string name="edit_error_initial_negative">不允许负值时，初始值不能小于 0</string>
+    <string name="edit_error_step">步长需在 1 到 %1$d 之间</string>
+    <string name="edit_error_negative_current">当前值为 %1$d，请先调整到 0 或以上，再关闭“允许负值”。</string>
+    <string name="edit_unsaved_title">放弃这次编辑？</string>
+    <string name="edit_unsaved_body">当前修改还没有保存。</string>
+
+    <!-- Detail -->
+    <string name="detail_value_label">当前值</string>
+    <string name="detail_reset">重置</string>
+    <string name="detail_reset_confirm_title">重置到初始值？</string>
+    <string name="detail_reset_confirm_body">会追加一条 %1$s 的记录，历史记录保持不变。</string>
+    <string name="detail_reset_confirm_action">重置</string>
+    <string name="detail_events_title">记录</string>
+    <string name="detail_events_count">%1$d 条</string>
+    <string name="detail_filter">筛选</string>
+    <string name="detail_filter_title">筛选记录</string>
+    <string name="detail_filter_time">时间范围</string>
+    <string name="detail_filter_sign">正负</string>
+    <string name="detail_filter_note">备注</string>
+    <string name="detail_time_all">全部时间</string>
+    <string name="detail_time_7">近 7 天</string>
+    <string name="detail_time_30">近 30 天</string>
+    <string name="detail_time_90">近 90 天</string>
+    <string name="detail_sign_any">全部</string>
+    <string name="detail_sign_positive">仅正数</string>
+    <string name="detail_sign_negative">仅负数</string>
+    <string name="detail_note_any">全部</string>
+    <string name="detail_note_with">有备注</string>
+    <string name="detail_note_without">无备注</string>
+    <string name="detail_filter_reset">重置筛选</string>
+    <string name="detail_empty_all">还没有记录。回到主页，按一下加号。</string>
+    <string name="detail_empty_filtered">当前筛选下没有记录。</string>
+    <string name="detail_note_dialog_title">编辑备注</string>
+    <string name="detail_note_hint">补充一点上下文</string>
+    <string name="detail_note_save">保存备注</string>
+    <string name="detail_note_clear">清除备注</string>
+    <string name="detail_event_actions_title">记录操作</string>
+    <string name="detail_event_undo_range">撤销此条及其后 %1$d 条</string>
+    <string name="detail_event_undo_range_title">撤销 %1$d 条记录？</string>
+    <string name="detail_event_undo_range_body">不会删除历史，会追加相同数量的反向记录。</string>
+    <string name="detail_event_undo_range_confirm">撤销</string>
+    <string name="detail_undo_latest">撤销最新一条</string>
+    <string name="detail_undo_none">没有可撤销的记录</string>
+    <string name="detail_undo_done">已撤销 %1$d 条</string>
+    <string name="detail_undo_blocked">撤销会让当前值小于 0，已取消</string>
+    <string name="detail_heatmap_title">活动热力图</string>
+    <string name="detail_heatmap_metric">频率基准</string>
+    <string name="detail_heatmap_metric_count">次数</string>
+    <string name="detail_heatmap_metric_abs">增量绝对值</string>
+    <string name="detail_heatmap_metric_net">净增量</string>
+    <string name="detail_heatmap_granularity">时间粒度</string>
+    <string name="detail_heatmap_minute">分</string>
+    <string name="detail_heatmap_hour">时</string>
+    <string name="detail_heatmap_day">日</string>
+    <string name="detail_heatmap_week">周</string>
+    <string name="detail_heatmap_month">月</string>
+    <string name="detail_heatmap_less">少</string>
+    <string name="detail_heatmap_more">多</string>
+    <string name="detail_heatmap_negative">净减少</string>
+    <string name="detail_heatmap_empty">这段时间还没有活动</string>
+    <string name="detail_heatmap_summary">共 %1$d 次记录</string>
+    <string name="detail_heatmap_peak">峰值 %1$d</string>
+    <string name="detail_heatmap_range">%1$s 至 %2$s</string>
+    <string name="detail_event_source_manual">手动</string>
+    <string name="detail_event_source_widget">小组件</string>
+    <string name="detail_event_source_shortcut">快捷方式</string>
+    <string name="detail_event_source_reset">重置</string>
+    <string name="detail_event_source_undo">撤销</string>
+    <string name="detail_note_label">备注：%1$s</string>
+    <string name="detail_no_note">无备注</string>
+    <string name="detail_pinned_badge">置顶</string>
+
+    <!-- Quick count -->
+    <string name="quick_exit">退出</string>
+    <string name="quick_session">本次 %1$s</string>
+    <string name="quick_volume_hint">音量键也可以加减</string>
+    <string name="quick_increase">增加</string>
+    <string name="quick_decrease">减少</string>
+    <string name="quick_step_label">步长 %1$d</string>
+    <string name="quick_title">快速计数</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_appearance">外观</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_theme_system">跟随系统</string>
+    <string name="settings_theme_light">浅色</string>
+    <string name="settings_theme_dark">深色</string>
+    <string name="settings_theme_note">深色模式用亮度层级表达表面，不靠反色。</string>
+    <string name="settings_card_size">卡片大小</string>
+    <string name="settings_card_size_compact">紧凑</string>
+    <string name="settings_card_size_standard">标准</string>
+    <string name="settings_card_size_comfortable">宽松</string>
+    <string name="settings_card_size_note">只影响主页卡片的留白和数字大小，不改变数据。</string>
+    <string name="settings_data">数据</string>
+    <string name="settings_export_json">导出 JSON 备份</string>
+    <string name="settings_export_json_desc">包含计数器、初始值、事件、备注与标签。</string>
+    <string name="settings_export_csv">导出 CSV 事件表</string>
+    <string name="settings_export_csv_desc">只用于表格查看，不支持导入。</string>
+    <string name="settings_import_json">导入 JSON</string>
+    <string name="settings_import_json_desc">合并现有数据，或用备份完整替换。</string>
+    <string name="settings_export_success">已导出 %1$d 个计数器、%2$d 条记录</string>
+    <string name="settings_export_failed">导出失败，请重试</string>
+    <string name="settings_export_empty">还没有数据可以导出</string>
+    <string name="settings_import_read_failed">无法读取所选文件</string>
+    <string name="settings_import_invalid">文件格式无效</string>
+    <string name="settings_import_invalid_field">文件字段无效：%1$s（%2$s）</string>
+    <string name="settings_import_unsupported">不支持的文件版本：%1$d</string>
+    <string name="settings_import_missing_version">文件缺少 schemaVersion</string>
+    <string name="settings_import_malformed">文件不是有效的 JSON</string>
+    <string name="settings_import_mode_title">导入方式</string>
+    <string name="settings_import_merge">合并</string>
+    <string name="settings_import_merge_desc">按事件 ID 去重，保留现有数据。</string>
+    <string name="settings_import_replace">替换</string>
+    <string name="settings_import_replace_desc">先清空当前数据，再写入文件内容。</string>
+    <string name="settings_import_replace_confirm_title">确认替换全部数据？</string>
+    <string name="settings_import_replace_confirm_body">当前 %1$d 个计数器、%2$d 条记录会被删除，且无法撤销。</string>
+    <string name="settings_import_confirm_replace">替换</string>
+    <string name="settings_import_negative_title">导入会造成负值</string>
+    <string name="settings_import_negative_body">以下计数器在导入后会小于 0：\n%1$s</string>
+    <string name="settings_import_negative_skip">跳过这些计数器</string>
+    <string name="settings_import_negative_allow">允许负值</string>
+    <string name="settings_import_negative_allow_hint">被允许的计数器会改为“允许负值”，以保持数据一致。</string>
+    <string name="settings_import_done">导入完成：%1$d 个计数器，%2$d 条记录</string>
+    <string name="settings_import_suffix_duplicates">；跳过 %1$d 条重复记录</string>
+    <string name="settings_import_suffix_skipped">；跳过 %1$d 个计数器</string>
+    <string name="settings_import_done_skipped">导入完成，跳过 %1$d 个计数器</string>
+    <string name="settings_import_duplicates">已跳过 %1$d 条重复记录</string>
+    <string name="settings_import_warnings">有 %1$d 条问题数据被跳过</string>
+    <string name="settings_import_failed">导入失败</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_about_body">Count 是一个本地优先的长期计数器。没有账号、广告、统计或网络权限；数据只保存在这台设备上，建议定期导出 JSON 备份。</string>
+    <string name="settings_version">版本 %1$s</string>
+    <string name="settings_stats">%1$d 个计数器 · %2$d 条记录 · %3$d 个标签</string>
+    <string name="settings_busy">正在处理</string>
+    <string name="settings_privacy">无网络权限 · 无广告 · 无账号</string>
+    <string name="settings_shortcut_section">快捷方式</string>
+    <string name="settings_shortcut_hint">在计数器卡片菜单里可以为单个计数器创建桌面快捷方式。</string>
+
+    <!-- Shortcut -->
+    <string name="shortcut_short_label">%1$s</string>
+    <string name="shortcut_long_label">Count · %1$s</string>
+    <string name="shortcut_failed">无法创建快捷方式</string>
+
+    <!-- Backup field names -->
+    <string name="field_id">ID</string>
+    <string name="field_name">名称</string>
+    <string name="field_initial_value">初始值</string>
+    <string name="field_allow_negative">允许负值</string>
+    <string name="field_created_at">创建时间</string>
+    <string name="field_sort_order">排序</string>
+    <string name="field_pinned">置顶</string>
+    <string name="field_default_step">默认步长</string>
+    <string name="field_delta">增量</string>
+    <string name="field_timestamp">时间戳</string>
+    <string name="field_source">来源</string>
+    <string name="field_note">备注</string>
+    <string name="field_schema_version">版本号</string>
+    <string name="field_tag_id">标签</string>
+    <string name="field_counter_list">计数器列表</string>
+
+    <!-- Accessibility -->
+    <string name="a11y_step_button">切换步长</string>
+    <string name="a11y_current_value">当前值 %1$d</string>
+    <string name="a11y_select_tag">按标签 %1$s 筛选</string>
+    <string name="a11y_clear_tag">清除标签筛选</string>
+    <string name="a11y_pinned">已置顶</string>
+    <string name="a11y_heatmap">活动热力图，%1$s 到 %2$s</string>
+    <string name="a11y_settings">设置</string>
+    <string name="a11y_quick_count">快速计数</string>
+    <string name="a11y_back">返回</string>
+    <string name="a11y_undo_last">撤销上一步</string>
+    <string name="a11y_select_theme">选择主题 %1$s</string>
+    <string name="a11y_selected">已选择</string>
+</resources>
+
+
+

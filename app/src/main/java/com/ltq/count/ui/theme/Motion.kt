@@ -1,0 +1,24 @@
+package com.ltq.count.ui.theme
+
+import android.provider.Settings
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.platform.LocalContext
+
+/**
+ * Android exposes the system "remove animations" toggle through the animator duration scale.
+ * The signature value animation and the staggered heatmap are skipped when it is zero.
+ */
+@Composable
+fun rememberReducedMotion(): Boolean {
+    val context = LocalContext.current
+    return remember(context) {
+        runCatching {
+            Settings.Global.getFloat(
+                context.contentResolver,
+                Settings.Global.ANIMATOR_DURATION_SCALE,
+                1f,
+            ) == 0f
+        }.getOrDefault(false)
+    }
+}
